@@ -45,7 +45,7 @@ export const Content = () => {
     if (containerRef.current) {
       if (lastRef.current) {
         containerRef.current.scrollTo({
-          top: lastRef.current.offsetTop - 100,
+          top: lastRef.current.offsetTop - 30,
           behavior: "smooth",
         })
       } else {
